@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Form</title>
 </head>
 <body>
-    <h1>Свяжитесь со  мной</h1>
-    <form action="#">
-        <div>
-            <label for="email">Email*</label>
-            <input type="email" name="email" id="email" placeholder="123@gmail.com" required>
-        </div>
-        <div>
-            <label for="telegram">Telegram</label>
-            <input type="text" name="telegram" id="telegram">
-        </div>
-        <div>
-            <label for="theme">Тема*</label>
-            <select name="theme" id="theme" required>
-                <option value="1">Приобретение курсов</option>
-            </select>
-        </div>
-        <div>
-            <label for="comment">Комментарий</label>
-            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-        </div>
-        <button type="submit">Отправить</button>
-    </form>
+    <main>
+        <h1>Свяжитесь со  мной</h1>
+        <form action="#">
+            <div>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="123@gmail.com" required>
+            </div>
+            <div>
+                <label for="telegram">Telegram</label>
+                <input type="text" name="telegram" id="telegram">
+            </div>
+            <div>
+                <label for="theme">Тема*</label>
+                <select name="theme" id="theme" required>
+                    <option value="1">Приобретение курсов</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment">Комментарий</label>
+                <textarea name="comment" id="comment"></textarea>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
 </body>
 </html>
