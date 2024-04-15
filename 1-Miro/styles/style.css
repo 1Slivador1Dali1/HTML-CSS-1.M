@@ -2,3 +2,59 @@
     background-color: #4262FF;
     color: #FFFFFF;
 }
+
+#heroButton:hover{
+    background-color: #1f35a7;
+}
+
+#heroButton:active{
+    background-color: #083590;
+}
+
+.heroForm input:focus{
+    background-color: black;
+    color: aliceblue;
+}
+
+.link{
+    color: #4262FF;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: #1f35a7;
+}
+
+h1, h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #050038;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.heroText{
+    color: #050038;
+}
+
+.sectionText{
+    color: rgba(5, 0, 56, 0.6);
+}
+
+header a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+}
+
+a::after{
+    color: red;
+    content: " !";
+}
