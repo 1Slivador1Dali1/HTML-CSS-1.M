@@ -8,30 +8,56 @@ main{
     background-color: #1E1F29;
     border-radius: 10px;
     padding: 48px;
-    text-align: center;
-    font-family: sans-serif;
-}
-
-h1, option{
-    color: #fafafa;
+    margin: 100px auto;
 }
 
 h1{
+    color: #fafafa;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 0 32px 0;
 }
 
-label{
-    color: #afb2bf;
-}
+
 
 input, select, textarea{
     background: #2e2d3d;
     color: #fafafa;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 120%;
     border-radius: 10px;
+    padding: 27px 48px 12px;
+    border: none;
 }
 
-input, select{
+
+
+input::placeholder, select::placeholder, textarea::placeholder {
+    color: #635f5f;
+    font-size: 16px;
+}
+
+label{
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #afb2bf;
+}
+
+
+/* input {
+    width: 700px;
+    height: 60px;
+} */
+
+/* select {
     width: 700px;
     height: 60px;
 }
@@ -39,12 +65,23 @@ input, select{
 textarea{
     width: 700px;
     height: 135px;
-}
+} */
 
 button{
     width: 700px;
     height: 50px;
     border-radius: 10px;
     background-color: #6c38cc;
+    border: none;
 }
 
+.field {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.field svg {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
