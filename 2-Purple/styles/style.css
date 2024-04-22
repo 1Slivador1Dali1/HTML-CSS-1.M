@@ -6,6 +6,10 @@ main{
     width: 800px;
     height: 600px;
     background-color: #1E1F29;
+    border-radius: 10px;
+    padding: 48px;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 h1, option{
